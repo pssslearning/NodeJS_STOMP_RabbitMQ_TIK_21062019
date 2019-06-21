@@ -1,0 +1,34 @@
+CONNECT
+login:guest
+passcode:guest
+accept-version:1.1,1.0
+heart-beat:20000,0
+
+.
+CONNECTED
+server:RabbitMQ/3.7.15
+session:session-TeIeAdp3beGblYbbfB91JQ
+heart-beat:0,20000
+version:1.1
+
+.
+
+SEND
+priority:9
+content-type:text/plain
+content-encoding:utf-8
+persistent:true
+correlation-id:b6355243-4bbb-4718-8179-db5c6430cf61
+timestamp:1561107213
+type:A message type info
+app-id:Tutorial1
+x-customStringHdr1:Techedge
+x-customNumberHdr2:2019
+x-customStringHdr3:TIK de Junio
+destination:/queue/testQueue
+content-length:105
+
+{"message":"Hello AMQP","currentTime":1561111223267,"messageUUID":"9000f11f-0951-4af6-829d-af64b5a51b3f"}.
+DISCONNECT
+
+.
